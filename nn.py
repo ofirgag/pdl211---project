@@ -179,5 +179,5 @@ def backward_propagation(Y_hat, Y, caches):
 
 if __name__ == '__main__':
     train_X, train_Y, test_X, test_Y = load_dataset('PeaksData.mat')
-    layers_dims = [2, 20, 15, 10, 7, 5]
+    layers_dims = [2, 20, 15, 10, 7, 6]
     parameters = SGD(train_X, train_Y, layers_dims, learning_rate=0.001, mini_batch_size=256, epochs=200)
