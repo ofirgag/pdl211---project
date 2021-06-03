@@ -77,7 +77,6 @@ def softmax_gradient(softmax_result):
     s = softmax_result.reshape(-1, 1)
     return np.diagflat(s) - np.dot(s, s.T)
 
-
 def compute_cost(Y_hat, Y):
     """
     Implement the cost function.
@@ -108,4 +107,3 @@ def load_dataset(file_name):
     test_Y = data['Cv']
 
     return train_X, train_Y, test_X, test_Y
-
