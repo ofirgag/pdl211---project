@@ -5,16 +5,16 @@ Simple neural network implementation
 Run the file nn.py with data sets folder and nn_utils.py file in same repository.
 The main method execute SGD algorithm with next params:
 
-train_x - Training examples without their labels
+**train_x** - Training examples without their labels
 
-train_y - Training examples labels
+**train_y** - Training examples labels
 
-layers_dims = A list which represents the architecture of the network. Each element i in the list stend for the amount of units/neurons in the i'th layer
+**layers_dims** = A list which represents the architecture of the network. Each element i in the list stend for the amount of units/neurons in the i'th layer
 
-learning_rate
+**learning_rate**
 
-mini_batch_size
+**mini_batch_size**
 
-epochs
+**epochs**
 
 Feel free to play around with different datasets and differen hyper parameters.
